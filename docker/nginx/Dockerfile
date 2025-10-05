@@ -21,4 +21,3 @@ COPY --chmod=755 /docker/nginx/99-lookingglass-config.sh /docker-entrypoint.d/
 
 #
 CMD ["nginx", "-g", "daemon off;"]
-
